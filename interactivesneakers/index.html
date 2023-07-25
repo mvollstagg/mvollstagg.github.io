@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" href="./assets/favicon.8d99ceea.ico">
+  <meta name="viewport" content="width=device-width, user-scalable=no">
+
+  <title>I & Others Interactive Product Advertisement</title>
+  <meta name="description" content="I & Others Interactive Product Advertisement">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="og:title" content="I & Others Interactive Product Advertisement" />
+  <meta property="og:description" content="I & Others Interactive Product Advertisement" />
+
+  <meta property="twitter:image" content="" />
+  <meta property="og:image" content="" />
+
+  <meta name="robots" content="index,follow">
+  <meta name="url" content="https://interactive.iandothers.com.tr">
+
+  
+  <script type="module" crossorigin src="./assets/index.2fdef97d.js"></script>
+  <link rel="stylesheet" href="./assets/index.ba4d5d10.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <style>
+    html {
+      height: 100%;
+    }
+
+    body {
+      background: linear-gradient(0deg, #88728b 0%, #ffe5d8 50%, #d4e3e2 100%);
+      height: 100%;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+    }
+
+    div.container {
+      display: flex;
+      align-content: space-around;
+      align-items: center;
+      width: 100vw;
+      height: 100vh;
+      justify-content: space-around;
+      /* margin-top: -8vh; */
+    }
+
+    .content {
+      width: 70vw;
+      height: 70vh;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      transition: width 0.5s, height 0.5s;
+    }
+
+    .content.small {
+      width: 50vw;
+      height: 50vh;
+    }
+
+    .content.wide {
+      width: 110vw;
+      height: 99vh;
+    }
+
+    needle-engine {
+      position: relative;
+      border-radius: 30px;
+      overflow:hidden;
+      box-shadow: 5px 5px 20px 0px rgb(8 52 2 / 32%);
+      flex-grow: 1;
+      transform: translateX(0);
+    }
+
+    .content.transparent needle-engine {
+      box-shadow: none;
+    }
+
+    .overlay-container {    
+      /* position: absolute;
+      left: -2.5%;
+      bottom: -15%;
+      background-color: #02022B99;
+      border-radius: 30px;
+      padding: 10px;
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(255,255,255,.2);
+      box-shadow: 0 0 3px rgba(0,0,0,.4); */
+    }
+
+    .overlay-container button {
+      display:block;
+      font-size: 2em;
+      padding: 0.5em 1em;
+      border-radius: 20px;
+      -webkit-border-radius: 20px;
+      border:1px solid #02022B;
+      color: black;
+      margin:10px;
+      box-shadow: inset 0 0 5px rgba(0,0,0,.4);
+      background-color: rgba(200,200,200);
+    }
+    .overlay-container button:hover {
+      cursor: pointer;
+      box-shadow: inset 0 0 6px rgba(0,0,0,1);
+      background-color: rgba(255,255,255);
+    }
+    .btn-group {
+      margin-bottom: 6vh;
+    }
+
+    @media screen and (max-width: 768px) {
+      .headline {
+        font-size: 1.5em;
+        margin-top: 2em;
+      }
+      .content {
+        width: 90vw;
+        height: 90vh;
+      }
+
+      .content.small {
+        width: 50vw;
+        height: 50vh;
+      }
+      .overlay-container button {
+        font-size: 1em;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <script>
+    // hack for simple-peer
+    window.global = window;
+    var parcelRequire;
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    
+  <div class="container">
+    <div class="content wide">
+      
+      <needle-engine>
+        
+      </needle-engine>
+      <p class="overlay-container">
+        <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+          <button type="button" id="option1" class="btn btn-danger">Flame Red</button>
+          <button type="button" id="option2" class="btn btn-warning">Pale Ale</button>
+          <button type="button" id="option3" class="btn btn-success">Turquoise Sky</button>
+        </div>
+      </p>
+      
+    </div>
+  </div>
+  
+</body>
+</html>
