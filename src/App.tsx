@@ -17,6 +17,12 @@ function App() {
       description: "A real-time messaging web application enabling instant communication between users.",
       image: "https://app-duologue-me.vercel.app/assets/demo.png?auto=format&fit=crop&q=80&w=2034",
       link: "https://app-duologue-me.vercel.app/"
+    },
+    {
+      title: "Project Dungeons",
+      description: "An turn-based RPG game where you play a party of 3 heroes in hexagon grid world.",
+      image: "https://i.ibb.co/CKCGPnm7/Ekran-g-r-nt-s-2025-02-28-232019.png?auto=format&fit=crop&q=80&w=2070",
+      link: "https://mvollstagg.itch.io/project-dungeons/"
     }
   ];
 
